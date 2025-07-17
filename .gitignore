@@ -13,4 +13,29 @@ hugo.linux
 # Temporary lock file while building
 /.hugo_build.lock
 
+# OS and editor files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# Hugo build output (if not using submodule for public)
+# public/
+
+# Hugo cache
+resources/_gen/
+hugo_stats.json
+
+# Node modules (if using npm/yarn)
+node_modules/
+
+# Log files
+*.log
+
+# Backup files
+*~
+
+# VS Code settings
+.vscode/
+
 # End of https://www.toptal.com/developers/gitignore/api/hugo

@@ -1,0 +1,6 @@
+[submodule "pranavburadkarblog/themes/PaperMod"]
+	path = pranavburadkarblog/themes/PaperMod
+	url = https://github.com/adityatelange/hugo-PaperMod
+[submodule "pranavburadkarblog/public"]
+	path = pranavburadkarblog/public
+	url = https://github.com/pranavburadkar/pranavburadkar.github.io.git

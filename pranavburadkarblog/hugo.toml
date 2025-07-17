@@ -1,0 +1,85 @@
+baseURL = "https://pranavburadkar.github.io/"
+languageCode = "en-us"
+title = "Pranav Buradkar"
+theme = "PaperMod"
+logo = "logo.png" 
+
+[outputs]
+  home = [ "HTML", "RSS", "JSON" ]
+
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1_000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = [ "title", "permalink", "summary", "content" ]
+
+[params]
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  mainSections = []
+  customCSS = ["css/extended/custom.css"]
+  env = "production"
+  ShowSearch = true
+
+  [params.assets]
+    favicon = "/favicon.ico"
+    favicon16x16 = "/favicon-16x16.png"
+    favicon32x32 = "/favicon-32x32.png"
+    apple_touch_icon = "/apple-touch-icon.png"
+    #safari_pinned_tab = "/safari-pinned-tab.svg"
+
+
+  [params.profileMode]
+    enabled = true
+    title = "Pranav Buradkar"
+    subtitle = "AIML | Computer Vision | Robotics | XR Enthusiast"
+    imageUrl = "avatar.jpg"
+    imageTitle = "Pranav Buradkar"
+    imageWidth = 120
+    imageHeight = 120
+    # buttons = [
+    #   { name = "Blog", url = "/posts/" },
+    #   { name = "Projects", url = "/projects/" },
+    #   { name = "About", url = "/about/" }
+    # ]
+
+[[params.socialIcons]]
+name = "github"
+url = "https://github.com/pranavburadkar"
+
+[[params.socialIcons]]
+name = "youtube"
+url = "https://www.youtube.com/@omniverselab"
+
+[[params.socialIcons]]
+name = "linkedin"
+url = "https://linkedin.com/in/pranavburadkar"
+
+
+[[menu.main]]
+identifier = "Posts"
+name = "Posts"
+url = "/posts/"
+weight = 10
+
+
+[[menu.main]]
+identifier = "search"
+name = "Search"
+url = "/search/"
+weight = 20
+
+[[menu.main]]
+identifier = "tags"
+name = "Tags"
+url = "/tags/"
+weight = 30
+
+[[menu.main]]
+identifier = "About"
+name = "About"
+url = "/about/"
+weight = 40
