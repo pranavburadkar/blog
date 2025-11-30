@@ -22,6 +22,7 @@ logo = "logo.png"
 [params]
   ShowReadingTime = true
   ShowCodeCopyButtons = true
+  ShowTags = true
   mainSections = []
   customCSS = ["css/extended/custom.css"]
   env = "production"
