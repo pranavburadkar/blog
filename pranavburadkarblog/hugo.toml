@@ -4,6 +4,9 @@ title = "Pranav Buradkar"
 theme = "PaperMod"
 logo = "logo.png" 
 
+[taxonomies]
+  series = "series"
+
 [outputs]
   home = [ "HTML", "RSS", "JSON" ]
 
