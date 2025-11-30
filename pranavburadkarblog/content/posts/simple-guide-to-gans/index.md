@@ -4,6 +4,7 @@ title = 'A Simple Guide to GANs'
 description = 'Understand the core concepts of GANs, how they work, and their applications in AI.'
 tags = ['AI', 'GANs', 'Machine Learning', 'Deep Learning']
 categories = ['Technology']
+series = ['AI Guides']
 +++
 
 Have you ever seen a photo of a person who doesn't exist? Or a painting so unique you can't believe a human didn't make it? Chances are, you were looking at the work of a **GAN**, one of the most creative and fascinating ideas in modern artificial intelligence.
@@ -18,7 +19,7 @@ Imagine a game between two players:
 
 > **The Critic (The "Discriminator")**: This player is a world-class art critic. Their job is to tell the difference between a real Picasso and a fake.
 
-![GAN Architecture](1.ppm "GAN Architecture")
+![GAN Architecture](1.webp "GAN Architecture")
 
 Here's how they play:
 

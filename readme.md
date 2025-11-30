@@ -13,3 +13,26 @@ This repository contains the source code and configuration files for my personal
 ├── config.toml        # Hugo configuration file
 ├── public/            # Generated static files for deployment
 └── README.md          # Documentation (this file)
+
+## 🚀 Usage
+
+### Prerequisites
+- [Hugo](https://gohugo.io/installation/) (Extended version recommended)
+
+**Install on Linux:**
+```bash
+sudo snap install hugo
+# or
+sudo apt install hugo
+```
+
+### Run Locally
+1. Navigate to the site directory:
+   ```bash
+   cd pranavburadkarblog
+   ```
+2. Start the server:
+   ```bash
+   hugo server -D
+   ```
+3. Open [http://localhost:1313](http://localhost:1313) in your browser.

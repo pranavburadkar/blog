@@ -23,7 +23,25 @@ logo = "logo.png"
   customCSS = ["css/extended/custom.css"]
   env = "production"
   ShowSearch = true
+  
+  # Comments System (Giscus)
+  comments = true
+  [params.giscus]
+    repo = "pranavburadkar/pranavburadkar.github.io" # CHANGE THIS to your repo
+    repoId = "R_kgDOG..." # CHANGE THIS
+    category = "Announcements"
+    categoryId = "DIC_kwDOG..." # CHANGE THIS
+    mapping = "pathname"
+    strict = "0"
+    reactionsEnabled = "1"
+    emitMetadata = "0"
+    inputPosition = "bottom"
+    theme = "preferred_color_scheme"
+    lang = "en"
+    loading = "lazy"
 
+  # Analytics
+  googleAnalytics = "G-MEASUREMENT_ID" # CHANGE THIS
   [params.assets]
     favicon = "/favicon.ico"
     favicon16x16 = "/favicon-16x16.png"
@@ -65,6 +83,12 @@ name = "Posts"
 url = "/posts/"
 weight = 10
 
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
+weight = 15
+
 
 [[menu.main]]
 identifier = "search"
@@ -83,3 +107,6 @@ identifier = "About"
 name = "About"
 url = "/about/"
 weight = 40
+
+[markup.goldmark.renderer]
+unsafe = true
