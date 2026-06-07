@@ -4,6 +4,7 @@ title = "Pranav Buradkar"
 theme = "PaperMod"
 logo = "logo.png" 
 
+
 [taxonomies]
   series = "series"
 
@@ -23,10 +24,11 @@ logo = "logo.png"
   ShowReadingTime = true
   ShowCodeCopyButtons = true
   ShowTags = true
-  mainSections = []
+  mainSections = ["posts"]
   customCSS = ["css/extended/custom.css"]
   env = "production"
   ShowSearch = true
+  author = "Pranav Buradkar"
   
   # Comments System (Giscus)
   comments = true
@@ -112,5 +114,14 @@ name = "About"
 url = "/about/"
 weight = 40
 
-[markup.goldmark.renderer]
-unsafe = true
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['$$', '$$'], ['\\[', '\\]']]
+          inline = [['$', '$'], ['\\(', '\\)']]
+
