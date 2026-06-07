@@ -1,6 +1,6 @@
 ---
 title: "Projects"
-layout: "archives"
+layout: "single"
 url: "/projects/"
 summary: "projects"
 ---
@@ -8,6 +8,10 @@ summary: "projects"
 ## 🚀 Featured Projects
 
 Here are some of the projects I've been working on.
+
+### [TheBulletin AI (Veritas Aggregator)](https://github.com/pranavburadkar/veritas_aggregator)
+**Tech Stack:** Python, FastAPI, Redis, PostgreSQL (pgvector), Ollama (Llama 3.3), Flutter  
+An autonomous, bias-aware news ecosystem that scrapes, clusters, summarizes, and validates news from major Indian outlets, delivering truth-verification scores and unbiased summaries.
 
 ### [Omniverse Lab](https://github.com/pranavburadkar/omniverse-lab)
 **Tech Stack:** Python, PyTorch, ROS  

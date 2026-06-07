@@ -104,8 +104,6 @@ With just a few lines of code, the model is ready to be trained using only 0.04%
 
 LoRA has democratized AI development. It shifts fine-tuning from being an expensive enterprise-only task to something any developer or hobbyist can run on a single machine. Whether you are building custom chatbots, fine-tuning Stable Diffusion styles, or experimenting with domain-specific models, LoRA is the go-to tool in the modern AI pipeline.
 
-Have you tried fine-tuning a model using LoRA? What rank ($r$) did you find worked best for your task? Let me know in the comments!
-
 ---
 
 *This post is part of the [AI Guides series](/series/ai-guides/). Check out the [Simple Guide to GANs](/posts/simple-guide-to-gans/) and the [Simple Guide to VAEs](/posts/simple-guide-to-vae/) for more guides on deep learning.*

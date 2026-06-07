@@ -6,6 +6,8 @@ logo = "logo.png"
 
 
 [taxonomies]
+  category = "categories"
+  tag = "tags"
   series = "series"
 
 [outputs]

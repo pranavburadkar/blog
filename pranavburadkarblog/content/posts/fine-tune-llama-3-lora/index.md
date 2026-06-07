@@ -173,12 +173,9 @@ finetuned_model = PeftModel.from_pretrained(base_model, "./llama3-custom-support
 ```
 
 ---
-
 ### Conclusion
 
-Congratulations! You have successfully fine-tuned Llama 3 on your own data. Because we used QLoRA, this whole process can run on a single 16GB GPU in under an hour for small datasets, keeping memory usage minimal. 
-
-What custom dataset are you planning to fine-tune Llama 3 on? Let us know in the comments!
+By combining 4-bit quantization with LoRA, the entire fine-tuning process for Llama 3 can run on a single 16GB GPU in under an hour for small datasets, keeping memory usage minimal.
 
 ---
 

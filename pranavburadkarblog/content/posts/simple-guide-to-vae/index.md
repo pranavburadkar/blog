@@ -64,9 +64,7 @@ In practice, many modern models combine elements of both!
 
 ### Conclusion
 
-Variational Autoencoders offer a elegant way to model data distributions and generate new content. By learning probabilistic latent representations, VAEs provide a foundation for many generative tasks. If you're interested in diving deeper, experiment with VAEs using libraries like TensorFlow or PyTorch.
-
-What generative model are you most excited about? Let me know in the comments!
+Variational Autoencoders offer an elegant way to model data distributions and generate new content. By learning probabilistic latent representations, VAEs provide a foundation for many generative tasks. If you're interested in diving deeper, experiment with VAEs using libraries like TensorFlow or PyTorch.
 
 ---
 
